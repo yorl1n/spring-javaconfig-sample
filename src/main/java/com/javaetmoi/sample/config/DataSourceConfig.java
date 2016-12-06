@@ -32,7 +32,7 @@ import org.springframework.jndi.JndiObjectFactoryBean;
 public class DataSourceConfig {
 
     @Autowired
-    private Environment env;//Test
+    private Environment env;//Test2
 
     @Bean
     @Profile("javaee")
